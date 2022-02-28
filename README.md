@@ -1,6 +1,13 @@
 # multiexec
 Simple utility for running a `kubectl exec` across multiple Pods.
 
+
+## Installation
+```
+$ pipx install multiexec
+```
+
+
 ## Usage
 Call the script with your Pod filters (passed thru to `kubectl get pods`) and your command (passed thru to `kubectl exec -it`) as follows:
 
